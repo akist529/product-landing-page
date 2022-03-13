@@ -1,0 +1,165 @@
+/* STYLE SHEET FOR ODIN PROJECT LANDING PAGE */
+
+
+
+/* || GENERAL STYLES */
+
+figure {
+    /* TRANSFORMATION */
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    text-align: center;
+}
+header {    /* STYLING */   font-weight: 700;   }
+ul {
+    /* TRANSFORMATION */
+    column-gap: 15px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    /* STYLING */
+    list-style-type: none;
+}
+button {
+    /* TRANSFORMATION */
+    padding: 5px 20px;
+
+    /* STYLING */
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+a { 
+    /* STYLING */   
+    color: #E5E7EB;
+    text-decoration: none;  
+}
+h1 {
+    /* TRANSFORMATION */
+    line-height: 50px;
+    margin-bottom: 0;
+
+    /* STYLING */
+    color: #F9FAF8;
+    font-size: 48px;
+}
+h2 {    /* TRANSFORMATION */    padding-top: 10px;  }
+h3 {    /* TRANSFORMATION */    padding-bottom: 0;  }
+
+
+
+/* SITEWIDE */
+
+.header {
+    /* TRANSFORMATION */
+    padding: 10px 50px;
+
+    /* STYLING */
+    background-color: #1F2937;
+    color: white;
+}
+
+.navbar {
+    /* TRANSFORMATION */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+.preview {
+    /* TRANSFORMATION */
+    align-items: center;
+    display: flex;
+    margin: 50px 50px 0 50px;
+}
+
+.preview-secondary,
+li {
+    /* TRANSFORMATION */
+    margin-top: 0;
+
+    /* STYLING */
+    font-size: 18px;
+}
+
+.image {
+    /* TRANSFORMATION */
+    padding: 10px;
+
+    /* STYLING */
+    background-color: grey;
+}
+
+.info {
+    /* TRANSFORMATION */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sub-info {
+    /* TRANSFORMATION */
+    display: inline-flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.illustration {
+    /* STYLING */
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid blue;
+}
+
+.quote-section {    
+    /* TRANSFORMATION */
+    padding: 20px 200px;
+
+    /* STYLING */
+    background-color: #E5E7EB;
+}
+
+.quote-section ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.quote {
+    /* STYLING */
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.signup {
+    /* TRANSFORMATION */
+    display: flex;
+    justify-content: space-between;
+    line-height: 0px;
+    margin: 50px;
+    padding: 25px 100px;
+
+    /* STYLING */
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer {
+    /* TRANSFORMATION */
+    padding: 25px 0;
+    text-align: center;
+
+    /* STYLING */
+    background-color: #1F2937;
+    color: white;
+}
+
+.signup button {    /* STYLING */   border: 2px solid white;    }
